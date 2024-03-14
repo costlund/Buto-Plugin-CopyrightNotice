@@ -1,0 +1,40 @@
+readme:
+  name: Buto-Plugin-CopyrightNotice
+  description: |
+    Add a copyright symbol with from-to years. Year to showing current year if not set.
+    ````
+    © 2017–2024
+    ````
+  item:
+    -
+      name: Settings
+    -
+      name: Usage
+    -
+      name: Pages
+      item: {  }
+    -
+      name: Widgets
+      item:
+        -
+          name: widget_notice
+          description: |
+            ````
+            type: widget
+            data:
+              plugin: copyright/notice
+              method: notice
+              data:
+                year_from: 2017
+            ````
+            Add optional param year_to. If not set current year is displayed.
+            ````
+                year_to: 2024
+            ````
+    -
+      name: Event
+      item: {  }
+    -
+      name: Construct
+    -
+      name: Methods
