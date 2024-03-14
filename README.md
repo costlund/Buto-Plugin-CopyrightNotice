@@ -1,6 +1,6 @@
 # Buto-Plugin-CopyrightNotice
 
-<p>Add a copyright symbol with from-to years. Year to showin current year if not set.</p>
+<p>Add a copyright symbol with from-to years. Year to showing current year if not set.</p>
 <pre><code>© 2017–2024</code></pre>
 
 <a name="key_0"></a>
