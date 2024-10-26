@@ -1,5 +1,9 @@
-version: 1.0.0
+version: 1.1.0
 history:
+  1.1.0:
+    date: '2024-10-26'
+    title: 'Element'
+    description: 'Change from element type small to only text.'
   1.0.0:
     date: '2024-03-14'
     title: 'First version'
